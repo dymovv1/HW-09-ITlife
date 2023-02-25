@@ -1,0 +1,146 @@
+
+:root {
+    --main-color: #3C3C3C;
+    --bg-gray: #F6F6F6;
+    --font-18: 18px;
+    --font-16: 16px;
+    --sec-c-black: #282528;
+    --sec-c-gray: #646464;
+    --font-w-600: 600;
+    --font-w-700: 700;
+    --font-w-300: 300;
+    --bor-bl: 1px solid #18B5DC;
+    --main-bl:  #18B5DC;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.pt_150 {
+    padding-top: 150px;
+}
+
+.pb_150 {
+    padding-bottom: 150px;
+}
+
+.mb_64 {
+    margin-bottom: 64px;
+}
+
+.mb_60 {
+    margin-bottom: 60px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_28 {
+    margin-bottom: 28px;
+}
+
+/* .di-fx{
+    display: flex;
+} */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-top: 2.93px;
+    padding-bottom: 2.93px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-block_img {
+    display: flex;
+    align-items: center;
+}
+
+.block-nav_ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 38px;
+}
+
+.block-nav_ul--li {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: var(--font-w-600);
+}
+
+.block-nav_ul--li:hover {
+    color: var(--main-bl);
+}
+
+.button {
+    display: inline-flex;
+    font-size: var(--font-18);
+    font-weight: var(--font-w-600);
+    line-height: 21.6px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 10px 19px;
+    background: transparent;
+    border: 1px solid var(--main-color);
+    transition: 0.2s;
+    font-family:'Lato', sans-serif;
+    cursor: pointer;
+
+
+}
+
+.header-block_btn{
+    display: inline-flex;
+
+}
+
+.button:hover {
+    background-color: var(--main-bl);
+    color: #FFFFFF;
+}
+
+.button:active {
+    box-shadow: 2px 3px 4px var(--main-color);
+
+}
+
+/* !#HEADER#!*/
