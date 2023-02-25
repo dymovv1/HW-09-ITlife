@@ -55,7 +55,6 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 0;
 }
 
 a {
@@ -105,6 +104,7 @@ img {
     font-size: 20px;
     line-height: 24px;
     font-weight: var(--font-w-600);
+    transition: all 0.3s;
 }
 
 .block-nav_ul--li:hover {
@@ -124,8 +124,6 @@ img {
     transition: 0.2s;
     font-family:'Lato', sans-serif;
     cursor: pointer;
-
-
 }
 
 .header-block_btn{
@@ -144,3 +142,101 @@ img {
 }
 
 /* !#HEADER#!*/
+
+/* MAIN */
+
+.section-social {
+    background: var(--bg-gray);
+}
+
+.section-social_title {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--font-w-700);
+    font-size: 34px;
+    line-height: 40.8px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.section-social_text {
+    max-width: 570px;
+    color: var(--main-color);
+    font-size: var(--font-16);
+    text-align: center;
+    line-height: 24px;
+    font-weight: var(--font-w-300);
+}
+
+.section-social_block--text {
+    display: flex;
+    justify-content: center;
+}
+
+.block-photos_links {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: var(--main-bl);
+    text-align: center;
+}
+
+.section-social_block--photos {
+    display: flex;
+    gap: 30px;
+}
+
+.block-photos_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.block-photos_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background: #5DCBE6;
+    color: #FFFFFF;
+    transition: all 0.3s;
+
+}
+
+.block-photos_li:hover {
+    background-color: #ffffff; 
+    color: #5DCBE6; 
+}
+
+
+.block-photos_li:hover svg path {
+    fill: #5DCBE6; 
+}
+
+.block-photos_li, svg path {
+    fill: #ffffff; 
+}
+
+.block-photos--title {
+    font-weight: var(--font-w-700);
+    font-size: var(--font-18);
+    line-height: 21.6px;
+    color: var(--sec-c-black);
+}
+
+.block-photos--text {
+    color: var(--sec-c-gray);
+    font-size: var(--font-w-300);
+    font-weight: var(--font-w-300);
+    line-height: 21.6px;
+    letter-spacing: 1px;
+}
+
+
+
+/* !#MAIN#! */
