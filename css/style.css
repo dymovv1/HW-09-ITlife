@@ -154,8 +154,9 @@ img {
     justify-content: center;
     font-weight: var(--font-w-700);
     font-size: 34px;
+    margin-bottom: 56px;
     line-height: 40.8px;
-    letter-spacing: 4px;
+    letter-spacing: 4.6px;
     text-transform: uppercase;
     color: var(--main-color);
 }
@@ -167,6 +168,7 @@ img {
     text-align: center;
     line-height: 24px;
     font-weight: var(--font-w-300);
+    margin-bottom: 55px;
 }
 
 .section-social_block--text {
@@ -175,12 +177,12 @@ img {
 }
 
 .block-photos_links {
-    display: flex;
-    justify-content: center;
-    width: 270px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 270px;
     height: 270px;
-    background: var(--main-bl);
-    text-align: center;
+    background: var(--main-bl); */
+    /* text-align: center; */
 }
 
 .section-social_block--photos {
@@ -193,6 +195,9 @@ img {
     justify-content: center;
     align-items: center;
     gap: 4px;
+    width: 270px;
+    height: 270px;
+    background: var(--main-bl);
 
 }
 
